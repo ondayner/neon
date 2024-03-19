@@ -1,0 +1,312 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Ms Madi", cursive;
+    background-color: #000;
+}
+
+.fondo {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    opacity: .4;
+    filter: brightness(40%);
+}
+
+.cent-neon {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neon {
+    position: absolute;
+    color: #ffe8e8;
+    font-size: 70px;
+    font-weight: 900;
+    user-select: none;
+    text-shadow: 0px 0px 71px rgba(194, 0, 0, 1);
+
+}
+
+b {
+    display: inline-block;
+}
+
+.uno, .dos {
+    animation: On 4s infinite;
+}
+
+@keyframes On {
+    0% {
+        opacity: 1;
+    }
+    10%{
+        opacity: .2;
+    }
+    12%{
+        opacity: 1;
+    }
+    14%{
+        opacity: .5;
+    }
+    16%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    64%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    87%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.tres {
+    animation: d 2s infinite;
+}
+
+@keyframes d {
+    0% {
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    12%{
+        opacity: 1;
+    }
+    14%{
+        opacity: 1;
+    }
+    16%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    64%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    87%{
+        opacity: .1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cinco {
+    animation: r 8s infinite;
+}
+
+@keyframes r {
+    0% {
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    12%{
+        opacity: 1;
+    }
+    14%{
+        opacity: .5;
+    }
+    16%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    64%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    87%{
+        opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.siete, .ocho {
+    animation: ev 7s infinite;
+}
+
+@keyframes ev {
+    0% {
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    12%{
+        opacity: 1;
+    }
+    14%{
+        opacity: 1;
+    }
+    16%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    64%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    85%{
+        opacity: 1;
+    }
+    87%{
+        opacity: 1;
+    }
+    95%{
+        opacity: .1;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.seis {
+    animation: D 2s infinite;
+}
+
+@keyframes D {
+    0% {
+        opacity: 1;
+    }
+    10%{
+        opacity: 1;
+    }
+    12%{
+        opacity: 1;
+    }
+    14%{
+        opacity: 1;
+    }
+    16%{
+        opacity: 1;
+    }
+    20%{
+        opacity: 1;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    64%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 1;
+    }
+    85%{
+        opacity: .1;
+    }
+    87%{
+        opacity: 1;
+    }
+    95%{
+        opacity: .6;
+    }
+    100%{
+        opacity: 1;
+    }
+}
